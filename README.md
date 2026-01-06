@@ -3,7 +3,7 @@ CẤU TRÚC DỰ ÁN
 CTDLGT-EL2-NHOM-7
 │
 ├── source/
-│   ├── main.cpp
+│   ├── main.cpp                                    
 │   ├── nhanvien.h
 │   ├── nhap_xuat.cpp
 │   ├── tim_kiem.cpp
