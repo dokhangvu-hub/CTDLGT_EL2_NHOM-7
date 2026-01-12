@@ -11,4 +11,7 @@ struct Node {
     NhanVien data;   // Lưu thông tin 1 nhân viên
     Node* next;      // Con trỏ trỏ đến node kế tiếp
 };
-nv.thucLinh = nv.soNgayCong * nv.luongNgay;
+if (nv.soNgayCong >= 0 && nv.luongNgay >= 0) {
+    nv.thucLinh = nv.soNgayCong * nv.luongNgay;
+}
+
